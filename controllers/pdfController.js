@@ -1,6 +1,6 @@
 const asyncHandler = require('express-async-handler')
 const Pdf = require("../models/fileModel")
-const s3 = require("../utils/cloudinary")
+const s3 = require("../utils/wasabi")
 const fs = require('fs')
 
 // @desc upload a pdf
